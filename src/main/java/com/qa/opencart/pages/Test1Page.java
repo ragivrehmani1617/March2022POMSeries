@@ -1,11 +1,13 @@
 package com.qa.opencart.pages;
 
+import org.openqa.selenium.By;
+
 public class Test1Page {
 
-	public static void main(String[] args) {
-		
-		System.out.println("This the test page");
-		System.out.println("testing the commit change");
+	By acc = By.id("acc");
+
+	public void clickAcc() {
+		System.out.println("click on :" + acc);
 	}
 
 }
